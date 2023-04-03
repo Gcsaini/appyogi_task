@@ -114,7 +114,7 @@ function takeControl(){
             timeout = setTimeout(() => {
                 releaseControl(user_id);
                 getStatus();
-            }, 10000);
+            }, 120000);
         }
     });
 }
